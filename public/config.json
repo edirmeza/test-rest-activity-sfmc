@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://ragsdale-customjbactivity.herokuapp.com/journeybuilder/execute",
+          "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "e6f7fdc7-df56-4297-b2fd-6e5a1dc8fd1e",
       "save": {
-        "url": "https://ragsdale-customjbactivity.herokuapp.com/journeybuilder/save",
+        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://ragsdale-customjbactivity.herokuapp.com/journeybuilder/publish",
+        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://ragsdale-customjbactivity.herokuapp.com/journeybuilder/stop",
+        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://ragsdale-customjbactivity.herokuapp.com/journeybuilder/validate",
+        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
         "verb": "POST",
         "useJwt": true
       }

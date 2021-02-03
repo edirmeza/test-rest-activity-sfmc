@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
+                    "primerNombre": "{{Contact.Attribute.Javer_Demo.nombre}}"
                 }									
 			],
           "outArguments": [],
@@ -78,8 +78,8 @@
                        }
                    },
                    {
-                       "emailAddress": {
-                           "dataType": "Email",
+                       "primerNombre": {
+                           "dataType": "Text",
                            "isNullable": false,
                            "direction": "in"
                        }

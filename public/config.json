@@ -31,26 +31,26 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "e6f7fdc7-df56-4297-b2fd-6e5a1dc8fd1e",
+      "applicationExtensionKey": "0955FA4D-AA20-4451-A591-3E19CA8FB5BA",
       "save": {
         "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
           "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
        "publish": {
         "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
       "stop": {
         "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       },
       "validate": {
         "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
         "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       }
     },
     "wizardSteps": [

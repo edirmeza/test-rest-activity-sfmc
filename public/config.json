@@ -16,11 +16,14 @@
     },
     "arguments": {
         "execute": {
-           "inArguments":[
-				{
-                    "primerNombre": "{{Contact.Attribute.KAVAK_Demo.nombre}}"
-                }									
-			],
+            "inArguments": [
+                {
+                    "emailAddress": "{{InteractionDefaults.Email}}"
+                },
+                {
+                    "phoneNumber": "{{Contact.Attribute.KAVAK_Demo.nombre}}"
+                }
+            ],
           "outArguments": [],
           "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
@@ -70,21 +73,21 @@
        "arguments": {
            "execute": {
                "inArguments": [
-                   {
-                       "phoneNumber": {
-                           "dataType": "Phone",
-                           "isNullable": false,
-                           "direction": "in"   
-                       }
-                   },
-                   {
-                       "primerNombre": {
-                           "dataType": "Text",
-                           "isNullable": false,
-                           "direction": "in"
-                       }
-                   }
-               ],
+                    {
+                        "telefono": {
+                            "dataType": "Phone",
+                            "isNullable": false,
+                            "direction": "in"   
+                        }
+                    },
+                    {
+                        "emailAddress": {
+                            "dataType": "Email",
+                            "isNullable": false,
+                            "direction": "in"
+                        }
+                    }
+                ],
                "outArguments": [
                    {
                        "foundSignupDate": {

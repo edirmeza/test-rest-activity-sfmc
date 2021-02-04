@@ -18,7 +18,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "primerNombre": "{{Contact.Attribute.Javer_Demo.nombre}}"
+                    "primerNombre": "{{Contact.Attribute.KAVAK_Demo.nombre}}"
                 }									
 			],
           "outArguments": [],

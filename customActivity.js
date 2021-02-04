@@ -41,7 +41,7 @@ define([
             $('#message').html(message);
         });
 
-        // Toggle step 4 active/inactive
+        // Toggle step 4 active/inactive 
         // If inactive, wizard hides it and skips over it during navigation
         $('#toggleLastStep').click(function() {
             lastStepEnabled = !lastStepEnabled; // toggle status

@@ -185,9 +185,10 @@ define([
         // may be overridden as desired.
         payload.name = name;
 
-        payload['arguments'].execute.inArguments = [{ "message": value }];
+        payload['arguments'].execute.inArguments = [{ "message": "Hola Mundo" }];
 
         payload['metaData'].isConfigured = true;
+        delete payload['arguments'].execute.activityObjectID;
 
         connection.trigger('updateActivity', payload);
     }

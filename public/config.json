@@ -32,7 +32,6 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "0955FA4D-AA20-4451-A591-3E19CA8FB5BA",
       "save": {
         "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
           "verb": "POST",

@@ -1,6 +1,5 @@
 {
     "workflowApiVersion": "1.1",
-	"key" : "0955FA4D-AA20-4451-A591-3E19CA8FB5BA",
     "metaData": {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
@@ -32,10 +31,10 @@
         }
     },
     "configurationArguments": {
-	    "applicationExtensionKey": "564a3b1e-93f5-495d-ad4f-c9d183bffb0b",
+	    "applicationExtensionKey": "23e1600c39-9cf8-4f06-9740-9d57075bbd22",
 	    "defaults": { "priority": "4"},
       "save": {
-        "url": "",
+        "url": "https://test-app-2021-04-02.herokuapp.com/activity/save",
           "verb": "POST",
         "useJwt": false
        },

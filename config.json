@@ -10,7 +10,7 @@
     "lang": {
         "en-US": {
             "name": "Custom JB Activity",
-          "description": "A Template for a custom Journey Builder activity",
+          "description": "A Template for a custom Journey Builder Activity",
           "step1Label": "Configure Activity"
         }
     },

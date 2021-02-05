@@ -18,10 +18,10 @@
         "execute": {
             "inArguments": [
                 {
-                    "emailAddress": "{{InteractionDefaults.Email}}"
+                    "emailAddress": "emeza@freewayconsulting.com"
                 },
                 {
-                    "phoneNumber": "{{Contact.Attribute.KAVAK_Demo.nombre}}"
+                    "phoneNumber": "6741066402"
                 }
             ],
           "outArguments": [],

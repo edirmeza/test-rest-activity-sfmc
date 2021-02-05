@@ -27,10 +27,7 @@
           "outArguments": [],
           "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca",
            "verb": "POST",
-            "body": "",
-            "header": "",
-            "format": "json",
-            "useJwt": true,
+            "useJwt": flase,
             "timeout": 10000
         }
     },

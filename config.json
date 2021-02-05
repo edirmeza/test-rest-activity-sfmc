@@ -35,22 +35,22 @@
 	    "applicationExtensionKey": "564a3b1e-93f5-495d-ad4f-c9d183bffb0b",
 	    "defaults": { "priority": "4"},
       "save": {
-        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca2",
+        "url": "",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca2",
+        "url": "",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca2",
+        "url": "",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://d4cb5966-31f2-46b3-ae8f-92ad917d68b7.mock.pstmn.io/test-mc-ca2",
+        "url": "",
         "verb": "POST",
         "useJwt": false
       }
